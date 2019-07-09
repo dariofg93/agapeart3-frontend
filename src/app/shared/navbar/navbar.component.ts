@@ -50,7 +50,7 @@ export class NavbarComponent implements OnInit {
     isHome() {
         var titlee = this.location.prepareExternalUrl(this.location.path());
 
-        if( titlee === '/home' ) {
+        if( titlee === '/' ) {
             return true;
         }
         else {

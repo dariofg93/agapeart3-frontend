@@ -26,7 +26,7 @@ import { HomeModule } from './home/home.module';
   ],
   imports: [
     BrowserModule,
-    NgbModule.forRoot(),
+    NgbModule,
     FormsModule,
     RouterModule,
     AppRoutingModule,
